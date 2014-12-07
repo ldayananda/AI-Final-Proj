@@ -51,3 +51,15 @@ DifficultGrid:
 **_Methods_**:  
 
 **initialize**: place hints in exactly 3 cells
+
+SearchAgent:
+----------------
+
+**_Attributes_**:
+
+**grid**: a pre-created grid using the grid class
+
+**_Methods_**:
+
+**giveSolution**: gives a mapping of cell label to the final value of the cell for the whole grid  
+**search**: runs the search algorithm
